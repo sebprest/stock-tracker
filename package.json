@@ -1,0 +1,23 @@
+{
+  "name": "stock-tracker",
+  "version": "1.0.0",
+  "description": "A CLI tool for keeping track of stock",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "webpack",
+    "dev": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/yargs": "^17.0.26",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0",
+    "yargs": "^17.7.2"
+  }
+}
