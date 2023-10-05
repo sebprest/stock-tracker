@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/yargs": "^17.0.26",
     "prettier": "^3.0.3",
