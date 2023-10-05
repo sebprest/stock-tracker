@@ -5,13 +5,16 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "webpack",
-    "dev": "ts-node src/main.ts"
+    "dev": "webpack && node dist/stock-tracker.js",
+    "format:write": "prettier --write \"src/**/*.ts\"",
+    "format:ci": "prettier --check \"src/**/*.ts\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/yargs": "^17.0.26",
+    "prettier": "^3.0.3",
     "ts-loader": "^9.4.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
