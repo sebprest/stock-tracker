@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A CLI tool for keeping track of stock",
   "main": "src/main.ts",
+  "private": true,
   "scripts": {
     "build": "webpack",
     "dev": "webpack && node dist/stock-tracker.js",
