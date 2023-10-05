@@ -11,7 +11,7 @@
     "format:ci": "prettier --check \"src/**/*.ts\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Sebastian Preston (https://github.com/sebprest)",
   "license": "MIT",
   "dependencies": {
     "@types/yargs": "^17.0.26",
